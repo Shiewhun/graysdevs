@@ -77,13 +77,13 @@ const Home = () => {
             <motion.p
               variants={pAni}
             >
-              Frontend Developer developer. <br /> I create seamless web experiences for end-users.
+              User Experience & Backend Web Development. <br /> Building Efficient & Reliable Web Solutions.
             </motion.p>
             <motion.button className='go-to'
               variants={butAni}
             >
               <Link to='contact' className='goto' smooth={true} offset={-70} duration={4}>
-                Contact Me  <AiOutlineRight fontSize={40} className='icon-arrow'/>
+                Contact Us  <AiOutlineRight fontSize={40} className='icon-arrow'/>
               </Link>
             </motion.button>
           </motion.div>
