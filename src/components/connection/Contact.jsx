@@ -60,8 +60,8 @@ const Contact = () => {
           viewport={{once:true, amount:0.3}}
           transition={{staggerChildren:0.5}}
         >
-          <motion.h1 variants={spanAni}>Want to get in touch?</motion.h1>
-          <motion.p variants={pAni}>Feel free to Contact US by submitting the form below and we will get back to you as soon as possible.</motion.p>
+          <motion.h1 variants={spanAni}>Want to talk to us?</motion.h1>
+          <motion.p variants={pAni}>Do fill out the form below, we'll get back to you promptly.</motion.p>
         </motion.div>
         <div className="contact-form">
           <motion.form method='POST' 
