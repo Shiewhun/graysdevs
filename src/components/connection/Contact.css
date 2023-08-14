@@ -1,0 +1,154 @@
+.contact{
+    max-width: 1200px;
+    margin: 0px auto;
+    margin-top: 200px;
+    margin-bottom: 120px;
+    padding: 0px 20px;
+}
+
+.contact-header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    padding: 0px 50px;
+}
+
+label{
+    color: #ccd6f6;
+    /* margin: 0px auto; */
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: 100;
+}
+
+.contact-form form{
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+::placeholder{
+    color: #81afdd;
+    font-weight: 100;
+}
+
+input, textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ccd6f6;
+    outline: none;
+    color: #ccd6f6;
+    font-size: 20px;
+    margin: 0px auto;
+}
+.send-det{
+    /* display: flex; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.am{
+    display: flex;
+    flex-direction: column;
+}
+
+.send{
+    background-color: var(--color-bg-nav);
+    color: #f9bc60;
+    /* background-color: #f9bc60; */
+    padding: 15px 35px;
+    margin: 0px auto;
+    margin-top: 30px;
+    text-align: center;
+    width: fit-content;
+    border-radius: 30px;
+    display: flex;
+    gap: 18px;
+    cursor: pointer;
+    letter-spacing: 0px;
+    transition: 1s ease;
+    border: 1px solid #ccd6f6;
+    animation: butmove 1.6s ease infinite;
+    /* text-shadow: 4px 8px black; */
+}
+
+@keyframes butmove {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-6px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.send:hover{
+    box-shadow: 2px 4px 2px #81afdd;
+    transform: translateY(-8px);
+    background-color: #15395d;
+    border: none;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    transition: 1s ease;
+}
+
+
+.lin{
+    width: 40px;
+    height: 2px;
+    /* background-color: #ccd6f6; */
+    background-color: #f9bc60;
+}
+
+.lin1, .lin3{
+    width: 20px;
+    transition: 1s ease;
+}
+
+.lin1{
+    transform: translateX(18px);
+}
+
+.lin3{
+    transform: translateX(18px);
+}
+
+.lin2{
+    transition: 1s ease;
+}
+
+.send:hover .lin1{
+    transform: rotate(30deg) translate(19px, -6.5px);
+}
+
+.send:hover .lin3{
+    transform: rotate(-30deg) translate(17.5px, 5px);
+}
+
+.send:hover .lin2{
+    transform: translateX(-10px);
+}
+
+
+@media screen and (max-width: 500px) {
+    input, textarea{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .contact-form{
+        padding: 0px;
+    }
+}
