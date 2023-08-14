@@ -31,7 +31,7 @@ const Navbar = () => {
                 variants={navLogo}
             >
                 <Link to='home' smooth={true} className="nav-left" style={{fontStyle: 'italic', cursor: 'pointer'}}>
-                    '(GraysDevs)'
+                    (GraysDevs)
                 </Link>
             </motion.div>
             <div className="nav-right nav-large">
@@ -106,7 +106,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link onClick={() => setToggle(prevToggle => !prevToggle)} to='project' offset={-70}  smooth={true} duration={1200}>
-                                Project
+                                Projects
                             </Link>
                         </li>
                         <li>
