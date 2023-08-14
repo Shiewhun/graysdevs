@@ -40,7 +40,7 @@ const Service = () => {
         <motion.h2 
           variants={move}
         >
-          Where we can add value
+          Where We Can Add Value:
         </motion.h2>
       <div className="service-container">
         <motion.div className="service-left"
@@ -49,8 +49,7 @@ const Service = () => {
           viewport={{once:true, amount:0.6}}
           transition={{staggerChildren:100}}
         >
-          {/* <motion.h1 variants={move}>The most creative <br /> intuitive and <br /> innovative teammate.</motion.h1> */}
-          <motion.h1 variants={move}>Our teams has built solutions for some of this most difficult technical challenges business has faced. <br /> Whatever you're looking for, we can assemble the perfect team to tackle it.</motion.h1>
+          <motion.h1 variants={move}>GraysDevs has built solutions for some of the most difficult technical challenges a few businesses have faced. <br /> Whatever you're looking for, we can assemble the team to tackle it.</motion.h1>
           <motion.img src={teamwork} alt='teamwork' variants={moveimg} />
         </motion.div>
         <motion.div className="service-right"
@@ -66,11 +65,11 @@ const Service = () => {
           </motion.div>
           <motion.div className="tab" variants={moveL2}>
             <h3>Blockchain Development</h3>
-            <p>Decentralized Applications, Smart Contracts, Solidity, Ethers.js</p>
+            <p>Decentralized Applications, Smart Contracts, Solidity, Ether.js</p>
           </motion.div>
           <motion.div className="tab" variants={moveL3}>
             <h3>Version Control and DevOps</h3>
-            <p>Git, Mercurial, Docker AWS</p>
+            <p>Git, Mercurial, Docker, AWS</p>
           </motion.div>
         </motion.div>
       </div>
