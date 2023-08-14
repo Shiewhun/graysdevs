@@ -51,7 +51,7 @@ const Navbar = () => {
                         transition={{ duration: 1, delay: 0.7, bounce: 0.5 }}
                     >
                         <Link to='about' smooth={true} duration={1200} offset={-70}>
-                            About Me
+                            About Us
                         </Link>
                     </motion.li>
                     <motion.li
@@ -60,7 +60,7 @@ const Navbar = () => {
                         transition={{ duration: 1, delay: 0.8, bounce: 0.5 }}
                     >
                         <Link to='project' smooth={true} duration={1200} offset={-70}>
-                            Project
+                            Projects
                         </Link>
                     </motion.li>
                     <motion.li
@@ -69,7 +69,7 @@ const Navbar = () => {
                         transition={{ duration: 1, delay: 0.9, bounce: 0.5 }}
                     >
                         <Link to='service' smooth={true} duration={1200} offset={-70}>
-                            Service
+                            Services
                         </Link>
                     </motion.li>
                     <motion.li
