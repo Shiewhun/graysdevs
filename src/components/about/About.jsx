@@ -61,7 +61,7 @@ const About = () => {
             <p>Phone Number: <a href="tel:+447729609732">+44 7729 609732</a></p>
             <button className='go-to'>
               <Link to='project' smooth={true} duration={500} delay={1000} offset={-70}>
-                Some of Our Work
+                Projects
               </Link>
             </button>
           </motion.div>
