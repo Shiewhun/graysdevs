@@ -30,8 +30,8 @@ const Project = () => {
           viewport={{once:true, amount:0.7}}
           transition={{staggerChildren:2}}
         >
-          <motion.h1 variants={proTop}>projects</motion.h1>
-          <motion.p variants={proSub}>Here are come of my project i have done over my years of development. (including this website)</motion.p>
+          <motion.h1 variants={proTop}>Some of Our Work</motion.h1>
+          <motion.p variants={proSub}>Here are some of the things we have built.</motion.p>
         </motion.div>
         <motion.div className="projects"
           initial={'offscreen'}
@@ -40,7 +40,7 @@ const Project = () => {
           transition={{staggerChildren:2}}
         >
           <motion.a variants={proSub} href='https://afrigrub.com/' target='_blank' rel='noreferrer' className="main-pro">
-            <img src={afrigrub} alt="afri-gurb" />
+            <img src={afrigrub} alt="afri-grub" />
           </motion.a>
           <motion.a variants={proSub} href='https://java-script-project-five.vercel.app/' target='_blank' rel='noreferrer' className="main-pro">
             <img src={tictac} alt="tic tac toe" />
@@ -52,7 +52,7 @@ const Project = () => {
             <img src={zuri} alt="zuri clone" />
           </motion.a>
           <motion.a variants={proSub} href='https://crypto-search-eta.vercel.app/' target='_blank' rel='noreferrer' className="main-pro">
-            <img src={crypto} alt="cypto search" />
+            <img src={crypto} alt="crypto search" />
           </motion.a>
           <motion.a variants={proSub} href='https://gym-api-sigma.vercel.app/' target='blank' rel='noreferrer' className="main-pro">
             <img src={gym} alt="gym app" />
