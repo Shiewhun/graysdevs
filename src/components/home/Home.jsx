@@ -71,8 +71,8 @@ const Home = () => {
               </motion.span>
                 <br /> 
                 <p className='comp-name'>Grays Devs.</p> 
-                <br className='br1'/> Your partner in crafting remaerkable digital web experiences.
-                <br className='br1'/>We merge the realms o friendly users experience and functional business logic applications to orchestrate seamless encounters with your business online that will help you improve your service delivery process and hit your goals faster.
+                <br className='br1'/> Your partner in crafting remarkable digital web experiences.
+                <br className='br1'/>We merge the realms of friendly user experience and functional business logic applications to orchestrate seamless encounters with your business online that will help you improve your service delivery process and hit your goals faster.
             </motion.h1>
             <motion.p
               variants={pAni}
