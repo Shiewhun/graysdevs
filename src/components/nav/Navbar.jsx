@@ -101,7 +101,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <Link onClick={() => setToggle(prevToggle => !prevToggle)} to='about' offset={-70}  smooth={true} duration={1200}>
-                                About Me
+                                About Us
                             </Link>
                         </li>
                         <li>
