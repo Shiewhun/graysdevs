@@ -52,7 +52,7 @@ const About = () => {
         >
           <motion.div className="know" variants={knowAniL}>
             <motion.div className="bar" ></motion.div>
-            // <motion.h3>Get to know us!:</motion.h3>
+            {/* <motion.h3>Get to know us!:</motion.h3> */}
             <h4>
              Our team of experienced engineers is composed of versatile designers and full-stack web developers adept at seamlessly uniting user-centric interfaces with robust backend business logic.
               Our expertise spans the entire spectrum, from crafting elegant web pages for your customers to navigate, to a backend architecture that implements efficient & reliable software solutions meeting your actual business needs, all together to deliver the perfect web solution for your business.
