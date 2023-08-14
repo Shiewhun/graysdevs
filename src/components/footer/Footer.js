@@ -14,7 +14,7 @@ const Footer = () => {
                 <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">Twitter</a>
                 <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div> */}
-            <h4><Link to='/contact'> Lets Talk  </Link></h4>
+            <h4><Link to='/contact'> Let's Talk  </Link></h4>
         </div>
     </div>
   )
